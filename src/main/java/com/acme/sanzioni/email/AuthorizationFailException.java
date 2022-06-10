@@ -1,27 +1,27 @@
-package com.acme.servizi.email;
+package com.acme.sanzioni.email;
 
-public class EmailNotValideException extends Exception {
+public class AuthorizationFailException extends Exception {
 
-	public EmailNotValideException() {
+	public AuthorizationFailException() {
 		// TODO Auto-generated constructor stub
 	}
 
-	public EmailNotValideException(String message) {
+	public AuthorizationFailException(String message) {
 		super(message);
 		// TODO Auto-generated constructor stub
 	}
 
-	public EmailNotValideException(Throwable cause) {
+	public AuthorizationFailException(Throwable cause) {
 		super(cause);
 		// TODO Auto-generated constructor stub
 	}
 
-	public EmailNotValideException(String message, Throwable cause) {
+	public AuthorizationFailException(String message, Throwable cause) {
 		super(message, cause);
 		// TODO Auto-generated constructor stub
 	}
 
-	public EmailNotValideException(String message, Throwable cause, boolean enableSuppression,
+	public AuthorizationFailException(String message, Throwable cause, boolean enableSuppression,
 			boolean writableStackTrace) {
 		super(message, cause, enableSuppression, writableStackTrace);
 		// TODO Auto-generated constructor stub

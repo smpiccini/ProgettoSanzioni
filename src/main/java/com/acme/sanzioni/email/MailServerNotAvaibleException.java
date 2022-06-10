@@ -1,4 +1,4 @@
-package com.acme.servizi.email;
+package com.acme.sanzioni.email;
 
 public class MailServerNotAvaibleException extends Exception {
 
