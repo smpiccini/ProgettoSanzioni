@@ -1,4 +1,4 @@
-package com.acme.servizi.email;
+package com.acme.sanzioni.email;
 
 
 import lombok.Data;
