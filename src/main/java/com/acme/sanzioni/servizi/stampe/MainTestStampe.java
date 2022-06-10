@@ -15,10 +15,10 @@ public class MainTestStampe {
 		document.setTesto("Testo di prova.");
 		
 		if (srvProvinciale != null) {
-			srvProvinciale.print(document);
+			//srvProvinciale.print(document);
 		}
 		if (srvMunicipale != null) {
-			srvMunicipale.print(document);
+			//srvMunicipale.print(document);
 		}
 		
 	}

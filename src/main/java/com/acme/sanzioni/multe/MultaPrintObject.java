@@ -1,5 +1,15 @@
 package com.acme.sanzioni.multe;
 
-public class MultaPrintObject {
+import com.acme.sanzioni.servizi.stampe.PrintObjectImp;
 
+public class MultaPrintObject extends PrintObjectImp{
+	
+	public MultaPrintObject() {
+		
+	}
+	
+	public MultaPrintObject(String testo) {
+		super(testo);
+	}
+	
 }
