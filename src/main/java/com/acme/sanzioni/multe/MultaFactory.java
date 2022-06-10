@@ -4,11 +4,11 @@ import com.acme.sanzioni.infrazione.Infrazione;
 
 public class MultaFactory {
 	
-	private static final int TIPO_MULTA = 1;
+	public static final int MULTA_GENERICA = 1;
 
 	public final static Multa create(int tipoMulta) throws WronTypeMultaException  {
 		Multa multa=null;
-		if(tipoMulta==TIPO_MULTA) {
+		if(tipoMulta==MULTA_GENERICA) {
 			multa=new MultaConcreta(); 
 		} else {
 			throw new WronTypeMultaException("Tipo di multa non prevista");
@@ -18,7 +18,7 @@ public class MultaFactory {
 
 	}
 	 public final static Multa create() throws WronTypeMultaException {
-		 return create (TIPO_MULTA);
+		 return create (MULTA_GENERICA);
 		 
 	 }
 
